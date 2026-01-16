@@ -35,4 +35,3 @@ jobs:
         run: |
           echo Add other actions to build, ${{ vars.CONFIG }}
           echo test, and deploy your project ${{ github.repository }}
-          echo workflow name - ${{ github.workflow }}
