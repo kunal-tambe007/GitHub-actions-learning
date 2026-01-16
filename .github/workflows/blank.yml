@@ -34,4 +34,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build, ${{ vars.CONFIG }}
-          echo test, and deploy your project ${{ github.repository }}
+          echo test, and deploy your project ${{ github.workflow }}
