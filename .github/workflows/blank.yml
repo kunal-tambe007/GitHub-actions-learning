@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+s# This is a basic workflow to help you get started with Actions
 
 name: CI
 
@@ -34,4 +34,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build, ${{ vars.CONFIG }}
-          echo test, and deploy your project.
+          echo test, and deploy your project ${{ github.repository }}
+          echo workflow name - ${{ github.workflow }}
